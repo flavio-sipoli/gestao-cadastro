@@ -24,4 +24,8 @@ $ npm run dev
 
 Acesse localhost:3000 em seu browser
 
+# Acesse o projeto aqui:
+
+Clique neste [link](https://gestaocadastro-gamacademy.herokuapp.com/)
+
 
