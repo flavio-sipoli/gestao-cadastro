@@ -12,7 +12,7 @@ As informações estão sendo salvas no localStorage.
 - Express.js
 - EJS
 
-## INSTALANDO O PROJETO LOCALMENTE
+## INSTALANDO O PROJETO
 
 Clonar o repositório em sua maquina local, acessar a pasta desafio-gamaAcademy e instalar o pacote npm.
 
