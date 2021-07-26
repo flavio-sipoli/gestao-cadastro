@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+.form-product select {
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.form-product input {
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.form-product option {
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.buttons a {
+    text-decoration: none;
+    color: var(--color2);
+}
+button {
+    font-family: var(--font1);
+    height: 50px;
+    padding: 0 10px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: var(--color3);
+    color: var(--color2);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

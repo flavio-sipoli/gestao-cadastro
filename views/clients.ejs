@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cliente</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/clients.css' />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <a href="/"><img src="/images/wine-glass-solid.svg" alt="taça vinho"></a>
+    </header>
+    <h1>CADASTRO CLIENTE</h1>
+    <section>
+        <form class="form-client">
+            <label for="name">Nome Completo:</label><br>
+            <input type="text" name="name" id="name" placeholder="Nome e Sobrenome" required><br>
+            <label for="cpf">CPF:</label><br>
+            <input type="text" name="cpf" id="cpf" required><br>
+            <label for="address">Endereço:</label><br>
+            <input type="text" name="address" id="address" placeholder="ex: Rua Jose da Silva, bairro centro "><br>
+            <label for="number">Número:</label><br>
+            <input type="number" name="number" id="number"><br>
+            <label for="details">Complemento:</label><br>
+            <input type="text" name="details" id="details"><br>
+            <label for="cep">CEP:</label><br>
+            <input type="text" name="cep" id="cep"><br>
+            <label for="phone">Telefone:</label><br>
+            <input type="tel" name="phone" id="phone" placeholder="ex:(11)99991010"><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email"><br>
+            <button type="submit" onclick="registerClient()">Cadastrar</button>
+        </form>
+    </section>
+    <script src="/javascripts/scripts.js"></script>
+</body>
+
+</html>

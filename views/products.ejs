@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cliente</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/products.css' />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <a href="/"><img src="/images/wine-glass-solid.svg" alt="taça vinho"></a>
+    </header>
+    <h1>CADASTRO VINHOS</h1>
+    <section>
+        <form class="form-product">
+            <label for="tinto">Categoria: Tinto</label><br>
+            <select name="tinto" id="tinto">
+                <option>Selecione</option>
+                <option value="malbec">Malbec</option>
+                <option value="cabernet-sauvignon">Cabernet Sauvignon</option>
+                <option value="merlot">Merlot</option>
+                <option value="tempranillo">Tempranillo</option>
+                <option value="carmenert">Carmenet</option>
+            </select><br>
+            <label for="branco">Categoria: Branco</label><br>
+            <select name="branco" id="branco">
+                <option>Selecione</option>
+                <option value="sauvignon-blanc">Sauvignon Blanc</option>
+                <option value="chardonay">Chardonay</option>
+                <option value="riesling">Riesling</option>
+                <option value="Gewurztraminer">Gewürztraminer</option>
+            </select><br>
+            <label for="ref">Vinicola:</label><br>
+            <input type="text" name="vinicola" id="vinicola" required><br>
+            <label for="ref">Pais:</label><br>
+            <input type="text" name="pais" id="pais" required><br>
+            <label for="ref">Referência:</label><br>
+            <input type="text" name="ref" id="ref" required><br>
+            <label for="price">Preço sugerido para venda:</label><br>
+            <input type="text" name="price" id="price"><br>
+            <label for="quantity">Quantidade:</label><br>
+            <input type="text" name="quantity" id="quantity"><br>
+            <button type="submit" onclick="registerProduct()">Cadastrar</button>
+        </form>
+    </section>
+    <script src="/javascripts/scripts.js"></script>
+</body>
+
+</html>
